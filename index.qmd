@@ -129,7 +129,7 @@ z |>
     sf::st_as_sf(coords = c("x", "y"),
                  crs = 4326) |>
     mp_dengue_cases(yrs = 2026,
-                    locality = localidad2,
+                    locality = localidad1,
                     cve_edo = estado)
 
 
